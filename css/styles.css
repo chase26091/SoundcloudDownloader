@@ -1,0 +1,92 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+	font-family: 'Varela', sans-serif;
+	font-weight: 600;
+	margin: 0px;
+}
+
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.defaultCursor {
+	cursor: default;
+}
+
+#controls{
+	text-align: center;
+	width: 90%;
+	border-radius: 3px;
+	border: 2px solid #FFA94E;
+	margin: 0px auto;
+}
+
+input[type="text"] {
+    width: 80%; 
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}
+
+.result{
+	margin: 3px;
+	padding: 3px;
+	border-radius: 10px;
+	border: 2px solid #E97700;
+}
+
+.artwork {
+	float: left;
+	padding: 3px;
+	border-radius: 10px;
+}
+
+p {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  	overflow: hidden;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+p.title{
+	color: black;
+	font-size: 14px;
+}
+
+p.artist{
+	color: gray;
+	font-size: 11px;
+}
+
+.controls {
+	display: table;
+}
+
+.control {
+	float: left;
+	border-radius: 4px;
+	padding: 1px;
+	margin: 1px;
+	background-color: #E97700;
+	overflow: hidden;
+
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+.control i {
+	padding: 1px;
+	float: left;
+}
+
+.control .controlDescription {
+	float: left;
+}

@@ -1,0 +1,49 @@
+{
+    "js-flags": "", 
+    "name": "soundcloud", 
+    "single-instance": true, 
+    "nodejs": true, 
+    "chromium-args": "", 
+    "additional_trust_anchors": "", 
+    "user-agent": "", 
+    "inject-js-end": "", 
+    "keywords": [], 
+    "window": {
+        "fullscreen": false, 
+        "kiosk_emulation": false, 
+        "resizable": false, 
+        "show": true, 
+        "always-on-top": false, 
+        "kiosk": false, 
+        "frame": false, 
+        "title": "SoundcloudDownloader", 
+        "visible": true, 
+        "height": 500, 
+        "exe_icon": "", 
+        "width": 300, 
+        "as_desktop": false, 
+        "position": "", 
+        "show_in_taskbar": true, 
+        "mac_icon": "", 
+        "transparent": false, 
+        "toolbar": false, 
+        "icon": ""
+    }, 
+    "version": "1.0.0", 
+    "snapshot": "", 
+    "node-main": "", 
+    "webkit": {
+        "page-cache": false, 
+        "java": false, 
+        "plugin": false
+    }, 
+    "dependencies": {
+        "request": "*",
+        "request-progress": "*"
+    },
+    "inject-js-start": "", 
+    "node-remote": "", 
+    "main": "index.html", 
+    "app_name": "soundcloudDownloader", 
+    "description": ""
+}
